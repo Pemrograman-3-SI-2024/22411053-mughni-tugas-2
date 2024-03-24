@@ -1,0 +1,172 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 0 100px;
+    background-color: #ffff;
+    font-family: sans-serif;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #000000; 
+}
+
+.nav .logo b{
+    color: #d81f1f;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    margin-right: 30px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:#000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.nav ul .active::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #d81f1f;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.signin{
+    background: transparent;
+    border: none;
+}
+
+.signup{
+    background-color: #d81f1f;
+    color: #ffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 50px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100;
+}
+
+.content-right img{
+float: right;
+
+}
+
+.content .content-left{
+    display: block;
+    width: 700%;
+}
+
+
+.content .content-left .info{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content .content-left .info h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.content .content-left .info p{
+    font-size: 16px;
+    line-height: 2pc;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    
+}
+
+.content .content-left button{
+    padding: 10px 23px;
+    background-color: #d81f1f;
+    color:#ffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.content .content-right{
+    display: block;
+    width: 100%;   
+}
+
+.my-card {
+    width: 20em;
+    background-color: #fff;
+}
+
+.my-card .card-content {
+    padding: 1em 1em 0.1em 1em;
+}
+
+.my-card .card-content .card-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #d81f1f;
+}
+
+.my-button {
+    background-color: d81f1f;
+    border: none;
+    /* atas, kanan, bawah, kiri*/
+    padding: 0.7em 1.3em;
+   /* padding-top: ;
+    padding-left: ; */
+    border-radius: 20px;
+    color:white;
+}
+
+.my-table {
+    border: none;
+}
+
+.my-table td {
+    padding: 0.6em;
+
+}
+
+.my-table tr:nth-child(even) {
+    background-color: #da9d9d;
+}
+
