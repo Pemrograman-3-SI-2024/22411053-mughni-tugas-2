@@ -95,12 +95,8 @@ input{
     outline: 2px auto #d81f1f;
 }
 
-.category .card-list .card img{
-    width:100px;
-    height: auto;
-    bottom: 140px;
-    left: 50px;
-}
+
+
 
 .category .card-list .card .food-title{
     padding: 40px 0 10px;
