@@ -142,7 +142,6 @@ float: right;
 
 .my-card .card-content {
     padding: 1em 1em 0.1em 1em;
-    margin-top: 20px;
 }
 
 .my-card .card-content .card-title {
@@ -173,3 +172,4 @@ float: right;
 .my-table tr:nth-child(even) {
     background-color: #da9d9d;
 }
+
