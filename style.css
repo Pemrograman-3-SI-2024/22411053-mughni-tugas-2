@@ -133,9 +133,6 @@ float: right;
 
 .my-card {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
     background-color: #fff;
 }
 
