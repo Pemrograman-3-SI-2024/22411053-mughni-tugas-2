@@ -137,11 +137,12 @@ float: right;
     flex-wrap: wrap;
     margin-top: 100px;
     background-color: #fff;
+    background: #d81f1f;
 }
 
 .my-card .card-content {
-    background-color: #d81f1f;
     padding: 1em 1em 0.1em 1em;
+    margin-top: 20px;
 }
 
 .my-card .card-content .card-title {
