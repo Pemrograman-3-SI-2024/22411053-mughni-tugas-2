@@ -100,12 +100,6 @@ input{
     height: auto;
     bottom: 140px;
     left: 50px;
-    object-fit: cover;
-    object-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    box-shadow: 0 20px 20px #d81f1f;
-    border-radius: 50px;
 }
 
 .category .card-list .card .food-title{
