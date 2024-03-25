@@ -134,10 +134,10 @@ float: right;
 .my-card {
     width: 20em;
     background-color: #fff;
-    outline: 2px solid #d81f1f
 }
 
 .my-card .card-content {
+    background-color: #d81f1f;
     padding: 1em 1em 0.1em 1em;
 }
 
